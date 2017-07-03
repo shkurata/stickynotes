@@ -1,0 +1,107 @@
+@import url('http://fonts.googleapis.com/css?family=Reenie+Beanie:regular');
+body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#addNote {
+  margin: 30px;
+}
+
+li {
+  display: inline-block;
+  background-color: #f4e8a1;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  padding-left: 20px;
+  box-shadow: 5px 5px 10px black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+li div {
+  margin-top: 20px;
+}
+
+li textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+}
+
+li textarea:last-child {
+  width: 90%;
+  height: 125px;
+  font-family: Reenie Beanie;
+}
+
+li textarea:first-child {
+  font-weight: bold;
+  width: 136px;
+  height: 30px;
+  font-size: 25px;
+}
+
+li img {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+li:nth-child(2n+1) {
+  -ms-transform: rotate(-5deg) translateY(10px);
+  /* IE 9 */
+  -webkit-transform: rotate(-5deg) translateY(10px);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-5deg) translateY(10px);
+}
+
+li:nth-child(2n) {
+  background-color: #b6ccaf;
+  -ms-transform: rotate(4deg);
+  /* IE 9 */
+  -webkit-transform: rotate(4deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(4deg);
+}
+
+li:nth-child(3n) {
+  background-color: #b6bed6;
+  -ms-transform: rotate(-3deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-3deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-3deg);
+}
+
+li:nth-child(5n) {
+  -ms-transform: rotate(-4deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-4deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-4deg);
+}
+
+li:hover {
+  -ms-transform: scale(1.25, 1.25);
+  /* IE 9 */
+  -webkit-transform: scale(1.25, 1.25);
+  /* Chrome, Safari, Opera */
+  transform: scale(1.25, 1.25);
+}
+/*li a {
+  text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}*/
+/*
+li p {
+  font-family: Reenie Beanie;
+}*/
