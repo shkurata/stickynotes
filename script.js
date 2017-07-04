@@ -1,6 +1,5 @@
 'use script';
 
-
 window.onload = function() {
   getNotes();
   document.getElementById('addNote').onclick = function() {
@@ -32,10 +31,6 @@ function addNote(title = '', text = '', kleur = '') {
   document.getElementsByTagName('ul')[0].appendChild(note);
   titel.focus();
 }
-
-
-
-
 
 function getNotes() {
   var notes = JSON.parse(localStorage.getItem('notes')) || [];
