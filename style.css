@@ -15,7 +15,6 @@ ul {
 
 li {
   display: inline-block;
-  background-color: #f4e8a1;
   width: 200px;
   height: 200px;
   margin: 15px;
@@ -39,6 +38,7 @@ li textarea:last-child {
   width: 90%;
   height: 125px;
   font-family: Reenie Beanie;
+  font-size: 24px;
 }
 
 li textarea:first-child {
@@ -53,6 +53,7 @@ li img {
   right: 5px;
   top: 5px;
 }
+
 li:nth-child(2n+1) {
   -ms-transform: rotate(-5deg) translateY(10px);
   /* IE 9 */
@@ -62,7 +63,6 @@ li:nth-child(2n+1) {
 }
 
 li:nth-child(2n) {
-  background-color: #b6ccaf;
   -ms-transform: rotate(4deg);
   /* IE 9 */
   -webkit-transform: rotate(4deg);
@@ -71,7 +71,6 @@ li:nth-child(2n) {
 }
 
 li:nth-child(3n) {
-  background-color: #b6bed6;
   -ms-transform: rotate(-3deg);
   /* IE 9 */
   -webkit-transform: rotate(-3deg);
@@ -94,14 +93,3 @@ li:hover {
   /* Chrome, Safari, Opera */
   transform: scale(1.25, 1.25);
 }
-/*li a {
-  text-decoration: none;
-}
-
-a:link, a:visited, a:hover, a:active {
-  color: black;
-}*/
-/*
-li p {
-  font-family: Reenie Beanie;
-}*/
